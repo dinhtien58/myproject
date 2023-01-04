@@ -18,6 +18,7 @@ namespace QuanLyBanHang.Classes
             sqlConn = new SqlConnection(strConnect);
             if(sqlConn.State != ConnectionState.Open)
                 sqlConn.Open();
+            //hello 
         }
         //Closing connect method
         void CloseConnect()
